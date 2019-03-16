@@ -1,0 +1,41 @@
+﻿
+$highcolor: black;
+$bgcolor: rgb(211, 207, 207);
+
+.nav-pills > li > a.active {
+    background-color: $highcolor !important;
+}
+
+.blogbgcolor{
+    background-color: $bgcolor !important;
+}
+%tableborders {
+    border: 1px solid black;
+}
+
+.recipe{
+    h4 {
+        color: rgb(53, 53, 126);
+        font-size: 35px;;
+    }
+    div{
+        h6{
+            color: rgb(196, 50, 74); 
+            font-style: oblique;
+            font-weight: bold;
+        }
+        table{
+            @extend %tableborders;
+            font-size: 14px;
+            font-family: 'Franklin Gothic Medium';
+            td,th{
+                @extend %tableborders;
+            }            
+        }
+        .instruction{
+            @extend %tableborders;
+
+        }
+    }
+}
+

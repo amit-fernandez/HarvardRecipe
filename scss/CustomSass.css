@@ -1,0 +1,27 @@
+.nav-pills > li > a.active {
+  background-color: black !important;
+}
+
+.blogbgcolor {
+  background-color: #d3cfcf !important;
+}
+
+.recipe div .instruction, .recipe div table td, .recipe div table th, .recipe div table {
+  border: 1px solid black;
+}
+
+.recipe h4 {
+  color: #35357e;
+  font-size: 35px;
+}
+.recipe div h6 {
+  color: #c4324a;
+  font-style: oblique;
+  font-weight: bold;
+}
+.recipe div table {
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium";
+}
+
+/*# sourceMappingURL=CustomSass.css.map */

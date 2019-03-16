@@ -1,0 +1,35 @@
+
+
+@media screen and (max-width: 1045px) and (min-width: 300px) {
+    .priority-low{
+        display:none;
+    }
+}
+
+#aboutme{
+    background-color: green !important;
+    text-align: center;
+}
+
+.Benefits li{
+    font-family: 'Courier New';
+      }
+      
+    
+.Benefits h6 + p{
+    color: orangered;
+      }
+
+.Benefits li::first-letter {
+        font-size: 200%;
+        color: #8A2BE2;
+      }
+
+
+.Benefits li a{
+        font-weight: bold;
+          }
+.Benefits td a{
+        font-weight: bold;
+          }
+        
